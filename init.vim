@@ -7,8 +7,10 @@ call plug#begin()
   Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.2'}
   Plug 'rose-pine/neovim', { 'as': 'rose-pine' }
   Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+  Plug 'nvim-treesitter/nvim-treesitter-refactor'
   Plug 'theprimeagen/harpoon'
   Plug 'mbbill/undotree'
+  Plug 'lambdalisue/fern.vim'
 
 " LSP
   Plug 'neovim/nvim-lspconfig'
