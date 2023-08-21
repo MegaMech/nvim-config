@@ -18,4 +18,13 @@ require'nvim-treesitter.configs'.setup({
     -- Instead of true it can also be a list of languages
     additional_vim_regex_highlighting = false,
   },
+  refactor = {
+    smart_rename = {
+      enable = true,
+      -- Assign keymaps to false to disable them, ex. 'smart_rename = false'
+      keymaps = {
+        smart_rename = "grr",
+      },
+    },
+  },
 })
